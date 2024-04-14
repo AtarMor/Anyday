@@ -18,13 +18,11 @@ app.use(express.json())
 app.use(express.static('public'))
 
 if (process.env.NODE_ENV === 'production') {
-    // Express serve static files on production environment
     app.use(express.static(path.resolve(__dirname, 'public')))
     console.log('__dirname: ', __dirname)
 } else {
-    // Configuring CORS
     const corsOptions = {
-        // Make sure origin contains the url your frontend is running on
+
         origin: [
             'http://127.0.0.1:5173',
             'http://localhost:5173',
@@ -42,9 +40,8 @@ import { authRoutes } from './api/auth/auth.routes.js'
 import { userRoutes } from './api/user/user.routes.js'
 import { boardRoutes } from './api/board/board.routes.js'
 
-// routes
-// import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware.js'
-// app.all('*', setupAsyncLocalStorage)
+import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware.js'
+app.all('*', setupAsyncLocalStorage)
 
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)

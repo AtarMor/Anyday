@@ -16,19 +16,9 @@ async function query(filterBy = {}) {
     let criteria = {}
 
     try {
-        // if (filterBy.txt) {
-        //   criteria.name = { $regex: filterBy.txt, $options: 'i' }
-        // }
-        // if (filterBy.labels && filterBy.labels[0]) {
-        //   criteria.labels = { $in: filterBy.labels }
-        // }
-        // if (filterBy.inStock !== undefined) {
-        //   if (filterBy.inStock === 'true') {
-        //     criteria.inStock = true
-        //   } else if (filterBy.inStock === 'false') {
-        //     criteria.inStock = false
-        //   }
-        // }
+        if (filterBy.txt) {
+          criteria.title = { $regex: filterBy.txt, $options: 'i' }
+        }
 
         const collection = await dbService.getCollection('board')
         const boards = await collection.find(criteria).toArray()

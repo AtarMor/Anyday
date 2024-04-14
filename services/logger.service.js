@@ -23,7 +23,7 @@ export const logger = {
 
 function _getTime() {
     let now = new Date()
-    return now.toLocaleString('he') //define the time format
+    return now.toLocaleString('he')
 }
 
 function _isError(e) {

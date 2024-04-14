@@ -3,8 +3,8 @@ import { logger } from '../../services/logger.service.js'
 
 export async function getBoards(req, res) {
     try {
-        // const { txt, labels, inStock, createdAt, icon, pageIdx } = req.query
-        const filterBy = { }
+        const {txt} = req.query
+        const filterBy = {txt}
         logger.debug('Getting Boards', filterBy)
         const boards = await boardService.query(filterBy)
         res.json(boards)
@@ -26,11 +26,11 @@ export async function getBoardById(req, res) {
 }
 
 export async function addBoard(req, res) {
-    // const { loggedinUser } = req
+    const { loggedinUser } = req
 
     try {
         const board = req.body
-        // board.owner = loggedinUser
+        board.owner = loggedinUser
         const addedBoard = await boardService.add(board)
         res.json(addedBoard)
     } catch (err) {
