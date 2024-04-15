@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "661c2d440124957551a8c80c"
+  },
+  "username": "Ron Felsenfeld",
+  "password": "$2b$10$EImU9u8ESmYjh/JUGkR4X.SF/zUpYe/Xm1octoUbmcfPjwfGh.hfm",
+  "fullName": "Ron Felsenfeld",
+  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
+},
+{
+  "_id": {
+    "$oid": "661c2d650124957551a8c80d"
+  },
+  "username": "Ido Yotvat",
+  "password": "$2b$10$PgVG9mgPV6uEwcoGfVpy4eA5tc7y1H93DVt8DTR8p9W26DQIfbsju",
+  "fullName": "Ido Yotvat",
+  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
+},
+{
+  "_id": {
+    "$oid": "661c2d950124957551a8c80e"
+  },
+  "username": "John Doe",
+  "password": "$2b$10$F3PYMExk5/PAhrlzm8jR.Oc2Jxax2cKaupwDkFA6CvhICVpe4Vg8e",
+  "fullName": "John Doe",
+  "imgUrl": ""
+},
+{
+  "_id": {
+    "$oid": "661c2db60124957551a8c80f"
+  },
+  "username": "Atar Mor",
+  "password": "$2b$10$lQdn70nOXeGpbZwtwXV1uuPT7bGBw4o9uRdoJ9RbYz1N7PMuGmIGy",
+  "fullName": "Atar Mor",
+  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+}]

@@ -1,0 +1,2034 @@
+[{
+  "_id": {
+    "$oid": "661bc234ed976ca49e942a5f"
+  },
+  "title": "Electric Store Project",
+  "isStarred": false,
+  "archivedAt": null,
+  "statuses": [
+    {
+      "id": "s101",
+      "title": "Done",
+      "color": "#00c875"
+    },
+    {
+      "id": "s102",
+      "title": "Working on it",
+      "color": "#fdab3d"
+    },
+    {
+      "id": "s103",
+      "title": "Stuck",
+      "color": "#df2f4a"
+    },
+    {
+      "id": "s104",
+      "title": "",
+      "color": "#c4c4c4"
+    }
+  ],
+  "persons": [
+    {
+      "id": "u101",
+      "fullName": "Atar Mor",
+      "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+    },
+    {
+      "id": "u102",
+      "fullName": "Ido Yotvat",
+      "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
+    },
+    {
+      "id": "u103",
+      "fullName": "Ron Felsenfeld",
+      "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
+    },
+    {
+      "id": "u104",
+      "fullName": "John Doe",
+      "imgUrl": ""
+    }
+  ],
+  "priorities": [
+    {
+      "id": "pri101",
+      "title": "Critical ⚠",
+      "color": "#333333"
+    },
+    {
+      "id": "pri102",
+      "title": "High",
+      "color": "#401694"
+    },
+    {
+      "id": "pri103",
+      "title": "Medium",
+      "color": "#5559df"
+    },
+    {
+      "id": "pri104",
+      "title": "Low",
+      "color": "#579bfc"
+    },
+    {
+      "id": "pri105",
+      "title": "",
+      "color": "#c4c4c4"
+    }
+  ],
+  "groups": [
+    {
+      "id": "g3",
+      "title": "Design",
+      "archivedAt": null,
+      "tasks": [
+        {
+          "id": "t302",
+          "title": "Create icons for task categories",
+          "personsIds": [
+            "u101"
+          ],
+          "status": "Done",
+          "priority": "Critical ⚠",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712826000000"
+            },
+            "dueDate": {
+              "$numberLong": "1713171600000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "zEYh9U",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076788539"
+              }
+            },
+            {
+              "id": "VempIU",
+              "byPerson": {
+                "_id": "u101",
+                "fullName": "Atar Mor",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+              },
+              "action": "Changed status to Done",
+              "createdAt": {
+                "$numberLong": "1713083929354"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u101",
+              "fullName": "Atar Mor",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t303",
+          "title": "Design user onboarding flow for new users",
+          "personsIds": [
+            "u101",
+            "u102",
+            "u103"
+          ],
+          "priority": "Low",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1713430800000"
+            },
+            "dueDate": {
+              "$numberLong": "1713603600000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "AuK6vU",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076796315"
+              }
+            },
+            {
+              "id": "FtEOJL",
+              "byPerson": {
+                "_id": "u101",
+                "fullName": "Atar Mor",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+              },
+              "action": "Changed status to Done",
+              "createdAt": {
+                "$numberLong": "1713080434958"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u101",
+              "fullName": "Atar Mor",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+            },
+            {
+              "id": "u102",
+              "fullName": "Ido Yotvat",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
+            },
+            {
+              "id": "u103",
+              "fullName": "Ron Felsenfeld",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
+            }
+          ],
+          "status": "Done"
+        },
+        {
+          "id": "t308",
+          "title": "Create illustrations for empty states (e.g., empty task list)",
+          "personsIds": [
+            "u101"
+          ],
+          "status": "Done",
+          "priority": "Critical ⚠",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1711991570111"
+            },
+            "dueDate": {
+              "$numberLong": "1712164370111"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "VLFqLI",
+              "byPerson": {
+                "_id": "u101",
+                "fullName": "Atar Mor",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+              },
+              "action": "Changed status to Done",
+              "createdAt": {
+                "$numberLong": "1713080440692"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u101",
+              "fullName": "Atar Mor",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t304",
+          "title": "Create wireframes for task detail view",
+          "personsIds": [
+            "u102"
+          ],
+          "status": "Done",
+          "priority": "Low",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712077970111"
+            },
+            "dueDate": {
+              "$numberLong": "1712164370111"
+            }
+          },
+          "comments": [],
+          "activities": [],
+          "taskFullPersons": [
+            {
+              "id": "u102",
+              "fullName": "Ido Yotvat",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t307",
+          "title": "Design color palette and typography for the interface",
+          "personsIds": [
+            "u103",
+            "u104"
+          ],
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1713430800000"
+            },
+            "dueDate": {
+              "$numberLong": "1713603600000"
+            }
+          },
+          "files": [
+            {
+              "type": "png",
+              "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713019203/uc8cbiodqflqhewr2f8d.jpg",
+              "desc": "Color pallete"
+            }
+          ],
+          "comments": [],
+          "activities": [
+            {
+              "id": "XoT9Od",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076807405"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u104",
+              "fullName": "John Doe",
+              "imgUrl": ""
+            },
+            {
+              "id": "u103",
+              "fullName": "Ron Felsenfeld",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t301",
+          "title": "Design intuitive user interface for task management",
+          "personsIds": [
+            "u103"
+          ],
+          "status": "Done",
+          "priority": "High",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712221200000"
+            },
+            "dueDate": {
+              "$numberLong": "1712480400000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "BywOZa",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076593787"
+              }
+            },
+            {
+              "id": "5OnmYq",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076779281"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u103",
+              "fullName": "Ron Felsenfeld",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t305",
+          "title": "Design email templates for notifications and reminders",
+          "priority": "Medium",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1713517200000"
+            },
+            "dueDate": {
+              "$numberLong": "1713690000000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "yHeMRt",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076802448"
+              }
+            }
+          ],
+          "files": [
+            {
+              "type": "png",
+              "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713018403/cyz8y7v0hkz96tyziafy.png",
+              "desc": "How to email templates"
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "fullName": "zzzzz"
+            }
+          ]
+        },
+        {
+          "id": "t306",
+          "title": "Create mockups for mobile and tablet versions of the app",
+          "status": "Working on it",
+          "priority": "High",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712480400000"
+            },
+            "dueDate": {
+              "$numberLong": "1713690000000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "asjsth",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076819338"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "fullName": "zzzzz"
+            }
+          ]
+        }
+      ],
+      "style": {
+        "color": "#9d50dd"
+      }
+    },
+    {
+      "id": "g2",
+      "title": "Backend",
+      "archivedAt": null,
+      "tasks": [
+        {
+          "id": "t201",
+          "title": "Implement user registration and login functionality",
+          "personsIds": [
+            "u101",
+            "u103"
+          ],
+          "status": "Working on it",
+          "priority": "High",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1713258000000"
+            },
+            "dueDate": {
+              "$numberLong": "1713517200000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "We1lkS",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076518022"
+              }
+            },
+            {
+              "id": "aQB2a4",
+              "byPerson": {
+                "_id": "u101",
+                "fullName": "Atar Mor",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713079702351"
+              }
+            }
+          ],
+          "files": [
+            {
+              "type": "jpg",
+              "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713019203/uc8cbiodqflqhewr2f8d.jpg",
+              "desc": "how to"
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u101",
+              "fullName": "Atar Mor",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+            },
+            {
+              "id": "u103",
+              "fullName": "Ron Felsenfeld",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t204",
+          "title": "Implement email notification",
+          "personsIds": [
+            "u101",
+            "u104"
+          ],
+          "status": "Stuck",
+          "priority": "Low",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712912400000"
+            },
+            "dueDate": {
+              "$numberLong": "1713258000000"
+            }
+          },
+          "files": [
+            {
+              "type": "jpg",
+              "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1712904587/qnwqevnelnowqrbaeisv.jpg",
+              "desc": "11210022.JPG"
+            }
+          ],
+          "comments": [],
+          "activities": [
+            {
+              "id": "nKfws0",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076565587"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u101",
+              "fullName": "Atar Mor",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+            },
+            {
+              "id": "u104",
+              "fullName": "John Doe",
+              "imgUrl": ""
+            }
+          ]
+        },
+        {
+          "id": "t206",
+          "title": "Implement data analytics dashboard",
+          "personsIds": [
+            "u101"
+          ],
+          "priority": "High",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1713344400000"
+            },
+            "dueDate": {
+              "$numberLong": "1713603600000"
+            }
+          },
+          "comments": [
+            {
+              "txt": "Hello",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "createdAt": {
+                "$numberLong": "1713078251377"
+              },
+              "id": "f9D0Z6"
+            }
+          ],
+          "activities": [
+            {
+              "id": "IAw0HT",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076689000"
+              }
+            },
+            {
+              "id": "GaTozy",
+              "byPerson": {
+                "_id": "u101",
+                "fullName": "Atar Mor",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+              },
+              "action": "Updated a file",
+              "createdAt": {
+                "$numberLong": "1713079145966"
+              }
+            },
+            {
+              "id": "Md9qqd",
+              "byPerson": {
+                "_id": "u101",
+                "fullName": "Atar Mor",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+              },
+              "action": "Updated a file",
+              "createdAt": {
+                "$numberLong": "1713079788404"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u101",
+              "fullName": "Atar Mor",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+            }
+          ],
+          "files": [
+            {
+              "type": "png",
+              "url": "http://res.cloudinary.com/dkmvaqxkl/image/upload/v1713079147/ie6gxqjhnzwhfpfnr1je.png"
+            },
+            {
+              "type": "png",
+              "url": "http://res.cloudinary.com/dkmvaqxkl/image/upload/v1713079789/trcya5sdhwu6kdbema5h.png"
+            }
+          ]
+        },
+        {
+          "id": "t207",
+          "title": "Develop user profile management functionality",
+          "personsIds": [
+            "u101",
+            "u102",
+            "u103"
+          ],
+          "status": "Stuck",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712480400000"
+            },
+            "dueDate": {
+              "$numberLong": "1713690000000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "HBTuMD",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076582211"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u101",
+              "fullName": "Atar Mor",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+            },
+            {
+              "id": "u102",
+              "fullName": "Ido Yotvat",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
+            },
+            {
+              "id": "u103",
+              "fullName": "Ron Felsenfeld",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t202",
+          "title": "Develop RESTful API",
+          "personsIds": [
+            "u102"
+          ],
+          "status": "Done",
+          "priority": "Critical ⚠",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712653200000"
+            },
+            "dueDate": {
+              "$numberLong": "1712998800000"
+            }
+          },
+          "files": [
+            {
+              "type": "pdf",
+              "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713012001/r1u6pqgfhrbrj0mlxpiv.pdf",
+              "desc": "Forme 1.png"
+            }
+          ],
+          "comments": [],
+          "activities": [
+            {
+              "id": "MOUinm",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076528738"
+              }
+            },
+            {
+              "id": "uT72IA",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076647294"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u102",
+              "fullName": "Ido Yotvat",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t205",
+          "title": "Integrate third-party authentication",
+          "personsIds": [
+            "u102"
+          ],
+          "status": "Done",
+          "priority": "High",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712739600000"
+            },
+            "dueDate": {
+              "$numberLong": "1712912400000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "J3nq7p",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076575595"
+              }
+            },
+            {
+              "id": "ItFNzb",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076653093"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u102",
+              "fullName": "Ido Yotvat",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t203",
+          "title": "Create database schema for storing user and task data",
+          "priority": "Medium",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712164370111"
+            },
+            "dueDate": {
+              "$numberLong": "1713114770111"
+            }
+          },
+          "taskFullPersons": [
+            {
+              "fullName": "zzzzz"
+            }
+          ]
+        }
+      ],
+      "style": {
+        "color": "#037f4c"
+      }
+    },
+    {
+      "id": "g4",
+      "title": "Bugs",
+      "archivedAt": null,
+      "tasks": [
+        {
+          "id": "t401",
+          "title": "Fix issue with task duplication when editing",
+          "personsIds": [
+            "u101"
+          ],
+          "status": "Stuck",
+          "priority": "Low",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712912400000"
+            },
+            "dueDate": {
+              "$numberLong": "1713344400000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "9sMiWM",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076829155"
+              }
+            }
+          ],
+          "files": [
+            {
+              "type": "pdf",
+              "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713012001/r1u6pqgfhrbrj0mlxpiv.pdf",
+              "desc": "how to fix bugs"
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u101",
+              "fullName": "Atar Mor",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t402",
+          "title": "Resolve performance issues with loading large task lists",
+          "personsIds": [
+            "u102",
+            "u103"
+          ],
+          "status": "Done",
+          "priority": "Medium",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712077970111"
+            },
+            "dueDate": {
+              "$numberLong": "1712164370111"
+            }
+          },
+          "comments": [],
+          "activities": [],
+          "taskFullPersons": [
+            {
+              "id": "u102",
+              "fullName": "Ido Yotvat",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
+            },
+            {
+              "id": "u103",
+              "fullName": "Ron Felsenfeld",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t404",
+          "title": "Fix alignment issue on task cards",
+          "personsIds": [
+            "u102"
+          ],
+          "status": "Working on it",
+          "priority": "High",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712998800000"
+            },
+            "dueDate": {
+              "$numberLong": "1713258000000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "mKv4aT",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076840555"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u102",
+              "fullName": "Ido Yotvat",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t403",
+          "title": "Fix UI glitch causing overlapping elements on mobile devices",
+          "priority": "Medium",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1713258000000"
+            },
+            "dueDate": {
+              "$numberLong": "1713344400000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "L6jsZq",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076834081"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "fullName": "zzzzz"
+            }
+          ]
+        }
+      ],
+      "style": {
+        "color": "#df2f4a"
+      }
+    },
+    {
+      "id": "g1",
+      "title": "Frontend",
+      "archivedAt": null,
+      "tasks": [
+        {
+          "title": "New task",
+          "personsId": [],
+          "comments": [],
+          "activities": [
+            {
+              "id": "hQ9urI",
+              "byPerson": {
+                "_id": "u101",
+                "fullName": "Atar Mor",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+              },
+              "action": "Changed person",
+              "createdAt": {
+                "$numberLong": "1713078772362"
+              }
+            },
+            {
+              "id": "5pN6tD",
+              "byPerson": {
+                "_id": "u101",
+                "fullName": "Atar Mor",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+              },
+              "action": "Changed status to Working on it",
+              "createdAt": {
+                "$numberLong": "1713078777168"
+              }
+            },
+            {
+              "id": "yoXbXi",
+              "byPerson": {
+                "_id": "u101",
+                "fullName": "Atar Mor",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+              },
+              "action": "Changed priority to Medium",
+              "createdAt": {
+                "$numberLong": "1713078780087"
+              }
+            },
+            {
+              "id": "ziS1Qm",
+              "byPerson": {
+                "_id": "u101",
+                "fullName": "Atar Mor",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713078786577"
+              }
+            },
+            {
+              "id": "6SYjQj",
+              "byPerson": {
+                "_id": "u101",
+                "fullName": "Atar Mor",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+              },
+              "action": "Updated a file",
+              "createdAt": {
+                "$numberLong": "1713078800990"
+              }
+            }
+          ],
+          "id": "4szcxF",
+          "personsIds": [
+            "u102"
+          ],
+          "status": "Working on it",
+          "priority": "Medium",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1713258000000"
+            },
+            "dueDate": {
+              "$numberLong": "1713517200000"
+            }
+          },
+          "files": [
+            {
+              "type": "png",
+              "url": "http://res.cloudinary.com/dkmvaqxkl/image/upload/v1713078801/pplsoudtao7zyn1vx66z.png"
+            }
+          ]
+        },
+        {
+          "id": "p101",
+          "title": "Implement responsive design for user dashboard",
+          "personsIds": [
+            "u101"
+          ],
+          "status": "Working on it",
+          "priority": "High",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712480400000"
+            },
+            "dueDate": {
+              "$numberLong": "1713690000000"
+            }
+          },
+          "comments": [
+            {
+              "id": "ZdPnm",
+              "txt": "also @yaronb please CR this",
+              "createdAt": {
+                "$numberLong": "1590999817436"
+              },
+              "byPerson": {
+                "id": "u101",
+                "fullName": "Atar Mor",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+              }
+            }
+          ],
+          "activities": [
+            {
+              "id": "xyvQDC",
+              "action": "Add person",
+              "personAdded": {
+                "id": "u103",
+                "fullName": "Ron Felsenfeld",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
+              },
+              "createdAt": {
+                "$numberLong": "1712995031424"
+              },
+              "byPerson": {
+                "id": "u101",
+                "fullName": "Atar Mor",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+              }
+            },
+            {
+              "id": "DWstab",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076460815"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u101",
+              "fullName": "Atar Mor",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t103",
+          "title": "Create modal for adding new tasks",
+          "personsIds": [
+            "u101",
+            "u102",
+            "u103"
+          ],
+          "status": "Working on it",
+          "priority": "High",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712998800000"
+            },
+            "dueDate": {
+              "$numberLong": "1713344400000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "GGqJ3d",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076475182"
+              }
+            }
+          ],
+          "files": [
+            {
+              "type": "pdf",
+              "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713011807/or7snd8m1oxfh93v9wro.pdf",
+              "desc": "How to modal"
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u101",
+              "fullName": "Atar Mor",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+            },
+            {
+              "id": "u102",
+              "fullName": "Ido Yotvat",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
+            },
+            {
+              "id": "u103",
+              "fullName": "Ron Felsenfeld",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t104",
+          "title": "Integrate notification system for task updates",
+          "personsIds": [
+            "u101",
+            "u102"
+          ],
+          "status": "Done",
+          "priority": "Critical ⚠",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712739600000"
+            },
+            "dueDate": {
+              "$numberLong": "1712998800000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "87QOrJ",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076493624"
+              }
+            },
+            {
+              "id": "6uxxrp",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076606769"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u101",
+              "fullName": "Atar Mor",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+            },
+            {
+              "id": "u102",
+              "fullName": "Ido Yotvat",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t106",
+          "title": "Add color-coded labels for task prioritization",
+          "personsIds": [
+            "u101",
+            "u103"
+          ],
+          "status": "Done",
+          "priority": "High",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712221200000"
+            },
+            "dueDate": {
+              "$numberLong": "1712739600000"
+            }
+          },
+          "comments": [
+            {
+              "txt": "Hi",
+              "byPerson": {
+                "_id": "u101",
+                "fullName": "Atar Mor",
+                "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+              },
+              "createdAt": {
+                "$numberLong": "1713078540310"
+              },
+              "id": "vORujP"
+            }
+          ],
+          "activities": [
+            {
+              "id": "yY0jLK",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076508248"
+              }
+            },
+            {
+              "id": "EZZZj4",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076545413"
+              }
+            },
+            {
+              "id": "MfC2VA",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076621119"
+              }
+            },
+            {
+              "id": "shd9Qq",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076640205"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u101",
+              "fullName": "Atar Mor",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+            },
+            {
+              "id": "u103",
+              "fullName": "Ron Felsenfeld",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
+            }
+          ]
+        },
+        {
+          "id": "p102",
+          "title": "Add drag-and-drop functionality",
+          "personsIds": [
+            "u103"
+          ],
+          "status": "Stuck",
+          "priority": "Medium",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712998800000"
+            },
+            "dueDate": {
+              "$numberLong": "1713258000000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "zqUBCC",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076467123"
+              }
+            },
+            {
+              "id": "QEo7dI",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076629136"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u103",
+              "fullName": "Ron Felsenfeld",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t105",
+          "title": "Develop search functionality for tasks",
+          "priority": "Low",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712998800000"
+            },
+            "dueDate": {
+              "$numberLong": "1713171600000"
+            }
+          },
+          "files": [
+            {
+              "type": "png",
+              "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713015920/gwh32kdm0guszyuv8nqb.png",
+              "desc": "your-canvas.png"
+            },
+            {
+              "type": "jpg",
+              "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713019203/uc8cbiodqflqhewr2f8d.jpg",
+              "desc": "how to"
+            }
+          ],
+          "comments": [],
+          "activities": [
+            {
+              "id": "AQJvbL",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076499583"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "fullName": "zzzzz"
+            }
+          ]
+        }
+      ],
+      "style": {
+        "color": "rgb(157, 80, 221)"
+      }
+    },
+    {
+      "id": "g5",
+      "title": "Refactor",
+      "archivedAt": null,
+      "tasks": [
+        {
+          "id": "t502",
+          "title": "Refactor component structure for better code organization",
+          "personsIds": [
+            "u101"
+          ],
+          "status": "Done",
+          "priority": "High",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712077970111"
+            },
+            "dueDate": {
+              "$numberLong": "1712164370111"
+            }
+          },
+          "comments": [],
+          "activities": [],
+          "taskFullPersons": [
+            {
+              "id": "u101",
+              "fullName": "Atar Mor",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t503",
+          "title": "Optimize API calls",
+          "personsIds": [
+            "u102"
+          ],
+          "status": "Working on it",
+          "priority": "Low",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712912400000"
+            },
+            "dueDate": {
+              "$numberLong": "1713258000000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "qvEmsx",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076864338"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u102",
+              "fullName": "Ido Yotvat",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
+            }
+          ]
+        },
+        {
+          "id": "t501",
+          "title": "Refactor CSS code for improved readability",
+          "personsIds": [
+            "u103"
+          ],
+          "priority": "Medium",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1713171600000"
+            },
+            "dueDate": {
+              "$numberLong": "1713344400000"
+            }
+          },
+          "comments": [],
+          "activities": [
+            {
+              "id": "j1kfxV",
+              "byPerson": {
+                "fullName": "Guest",
+                "imgUrl": "/assets/img/user-avatar.svg",
+                "id": "guest101"
+              },
+              "action": "Changed Date",
+              "createdAt": {
+                "$numberLong": "1713076849305"
+              }
+            }
+          ],
+          "taskFullPersons": [
+            {
+              "id": "u103",
+              "fullName": "Ron Felsenfeld",
+              "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
+            }
+          ]
+        }
+      ],
+      "style": {
+        "color": "#fdab3d"
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "a101",
+      "txt": "Changed Color",
+      "createdAt": {
+        "$numberLong": "1712163768641"
+      },
+      "byPerson": {
+        "_id": "u101",
+        "fullName": "Atar Mor"
+      },
+      "group": {
+        "id": "g3",
+        "title": "Design"
+      },
+      "task": {
+        "id": "t101",
+        "title": "Design intuitive user interface for task management"
+      }
+    }
+  ],
+  "cmpsOrder": [
+    "PersonPicker",
+    "StatusPicker",
+    "PriorityPicker",
+    "TimelinePicker",
+    "FilesPicker"
+  ]
+},
+{
+  "_id": {
+    "$oid": "661c11c84963f6b09872a83b"
+  },
+  "title": "Board 3",
+  "isStarred": true,
+  "archivedAt": null,
+  "statuses": [
+    {
+      "id": "s101",
+      "title": "Done",
+      "color": "#00c875"
+    },
+    {
+      "id": "s102",
+      "title": "Working on it",
+      "color": "#fdab3d"
+    },
+    {
+      "id": "s103",
+      "title": "Stuck",
+      "color": "#df2f4a"
+    },
+    {
+      "id": "s104",
+      "title": "",
+      "color": "#c4c4c4"
+    }
+  ],
+  "persons": [
+    {
+      "id": "u101",
+      "fullName": "Atar Mor",
+      "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+    },
+    {
+      "id": "u102",
+      "fullName": "Ido Yotvat",
+      "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
+    },
+    {
+      "id": "u103",
+      "fullName": "Ron Felsenfeld",
+      "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
+    }
+  ],
+  "priorities": [
+    {
+      "id": "pri101",
+      "title": "Critical ⚠",
+      "color": "#333333"
+    },
+    {
+      "id": "pri102",
+      "title": "High",
+      "color": "#401694"
+    },
+    {
+      "id": "pri103",
+      "title": "Medium",
+      "color": "#5559df"
+    },
+    {
+      "id": "pri104",
+      "title": "Low",
+      "color": "#579bfc"
+    },
+    {
+      "id": "pri105",
+      "title": "",
+      "color": "#c4c4c4"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1NGOYU",
+      "title": "Group1",
+      "archivedAt": null,
+      "tasks": [
+        {
+          "id": "emd84U",
+          "title": "task 1",
+          "personsIds": [
+            "u101"
+          ],
+          "status": "Working on it",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712077970111"
+            },
+            "dueDate": {
+              "$numberLong": "1712250770111"
+            }
+          },
+          "comments": [],
+          "activities": []
+        },
+        {
+          "id": "6TMiVO",
+          "title": "task 2",
+          "personsIds": [
+            "u103"
+          ],
+          "status": "Done",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1712164370111"
+            },
+            "dueDate": {
+              "$numberLong": "1712941970111"
+            }
+          },
+          "comments": [],
+          "activities": []
+        },
+        {
+          "id": "ntHUnG",
+          "title": "task 3",
+          "personsIds": [
+            "u101",
+            "u102",
+            "u103"
+          ],
+          "status": "Stuck",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1711991570111"
+            },
+            "dueDate": {
+              "$numberLong": "1712337170111"
+            }
+          },
+          "comments": [],
+          "activities": [],
+          "files": [
+            {
+              "type": "jpg",
+              "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713019203/uc8cbiodqflqhewr2f8d.jpg",
+              "desc": "How to modal"
+            }
+          ]
+        }
+      ],
+      "style": {
+        "color": "#579bfc"
+      }
+    },
+    {
+      "id": "zuU6bw",
+      "title": "group 2",
+      "archivedAt": null,
+      "tasks": [
+        {
+          "id": "gmoUc4",
+          "title": "task 1",
+          "personsIds": [
+            "u101",
+            "u103"
+          ],
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1711991570111"
+            },
+            "dueDate": {
+              "$numberLong": "1712337170111"
+            }
+          },
+          "comments": [],
+          "activities": [],
+          "files": [
+            {
+              "type": "jpg",
+              "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713006218/nbgwkn5rga3yqmqc1tk9.jpg",
+              "desc": "how to"
+            }
+          ]
+        },
+        {
+          "id": "jne5Vf",
+          "title": "task 2",
+          "personsIds": [
+            "u102"
+          ],
+          "status": "Stuck",
+          "timeline": {
+            "startDate": {
+              "$numberLong": "1711991570111"
+            },
+            "dueDate": {
+              "$numberLong": "1712164370111"
+            }
+          },
+          "comments": [],
+          "activities": [],
+          "files": [
+            {
+              "type": "pdf",
+              "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713011807/or7snd8m1oxfh93v9wro.pdf",
+              "desc": "Forme 1.png"
+            }
+          ]
+        }
+      ],
+      "style": {
+        "color": "#037f4c"
+      }
+    }
+  ],
+  "activities": [],
+  "cmpsOrder": [
+    "PersonPicker",
+    "StatusPicker",
+    "PriorityPicker",
+    "TimelinePicker"
+  ],
+  "boardToSave": {
+    "title": "Board 3",
+    "isStarred": true,
+    "archivedAt": null,
+    "statuses": [
+      {
+        "id": "s101",
+        "title": "Done",
+        "color": "#00c875"
+      },
+      {
+        "id": "s102",
+        "title": "Working on it",
+        "color": "#fdab3d"
+      },
+      {
+        "id": "s103",
+        "title": "Stuck",
+        "color": "#df2f4a"
+      },
+      {
+        "id": "s104",
+        "title": "",
+        "color": "#c4c4c4"
+      }
+    ],
+    "persons": [
+      {
+        "id": "u101",
+        "fullName": "Atar Mor",
+        "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
+      },
+      {
+        "id": "u102",
+        "fullName": "Ido Yotvat",
+        "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
+      },
+      {
+        "id": "u103",
+        "fullName": "Ron Felsenfeld",
+        "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
+      }
+    ],
+    "priorities": [
+      {
+        "id": "pri101",
+        "title": "Critical ⚠",
+        "color": "#333333"
+      },
+      {
+        "id": "pri102",
+        "title": "High",
+        "color": "#401694"
+      },
+      {
+        "id": "pri103",
+        "title": "Medium",
+        "color": "#5559df"
+      },
+      {
+        "id": "pri104",
+        "title": "Low",
+        "color": "#579bfc"
+      },
+      {
+        "id": "pri105",
+        "title": "",
+        "color": "#c4c4c4"
+      }
+    ],
+    "groups": [
+      {
+        "id": "1NGOYU",
+        "title": "Group1",
+        "archivedAt": null,
+        "tasks": [
+          {
+            "id": "emd84U",
+            "title": "task 1",
+            "personsIds": [
+              "u101"
+            ],
+            "status": "Working on it",
+            "timeline": {
+              "startDate": {
+                "$numberLong": "1712077970111"
+              },
+              "dueDate": {
+                "$numberLong": "1712250770111"
+              }
+            },
+            "comments": [],
+            "activities": []
+          },
+          {
+            "id": "6TMiVO",
+            "title": "task 2",
+            "personsIds": [
+              "u103"
+            ],
+            "status": "Done",
+            "timeline": {
+              "startDate": {
+                "$numberLong": "1712164370111"
+              },
+              "dueDate": {
+                "$numberLong": "1712941970111"
+              }
+            },
+            "comments": [],
+            "activities": []
+          },
+          {
+            "id": "ntHUnG",
+            "title": "task 3",
+            "personsIds": [
+              "u101",
+              "u102",
+              "u103"
+            ],
+            "status": "Stuck",
+            "timeline": {
+              "startDate": {
+                "$numberLong": "1711991570111"
+              },
+              "dueDate": {
+                "$numberLong": "1712337170111"
+              }
+            },
+            "comments": [],
+            "activities": [],
+            "files": [
+              {
+                "type": "jpg",
+                "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713019203/uc8cbiodqflqhewr2f8d.jpg",
+                "desc": "How to modal"
+              }
+            ]
+          }
+        ],
+        "style": {
+          "color": "#579bfc"
+        }
+      },
+      {
+        "id": "zuU6bw",
+        "title": "group 2",
+        "archivedAt": null,
+        "tasks": [
+          {
+            "id": "gmoUc4",
+            "title": "task 1",
+            "personsIds": [
+              "u101",
+              "u103"
+            ],
+            "timeline": {
+              "startDate": {
+                "$numberLong": "1711991570111"
+              },
+              "dueDate": {
+                "$numberLong": "1712337170111"
+              }
+            },
+            "comments": [],
+            "activities": [],
+            "files": [
+              {
+                "type": "jpg",
+                "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713006218/nbgwkn5rga3yqmqc1tk9.jpg",
+                "desc": "how to"
+              }
+            ]
+          },
+          {
+            "id": "jne5Vf",
+            "title": "task 2",
+            "personsIds": [
+              "u102"
+            ],
+            "status": "Stuck",
+            "timeline": {
+              "startDate": {
+                "$numberLong": "1711991570111"
+              },
+              "dueDate": {
+                "$numberLong": "1712164370111"
+              }
+            },
+            "comments": [],
+            "activities": [],
+            "files": [
+              {
+                "type": "pdf",
+                "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713011807/or7snd8m1oxfh93v9wro.pdf",
+                "desc": "Forme 1.png"
+              }
+            ]
+          }
+        ],
+        "style": {
+          "color": "#037f4c"
+        }
+      }
+    ],
+    "activities": [],
+    "cmpsOrder": [
+      "PersonPicker",
+      "StatusPicker",
+      "PriorityPicker",
+      "TimelinePicker"
+    ]
+  }
+}]
