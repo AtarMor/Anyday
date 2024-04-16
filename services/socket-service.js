@@ -30,6 +30,11 @@ export function setupSocketAPI(server) {
             socket.emit('conversation-add-msg', msg)
         })
 
+        socket.on('update-task', task => {
+            logger.info(`New update on from socket [id:${socket.id}]`)
+            socket.emit('update-task', task)
+        })
+
         socket.on('set-user-socket', userId => {
             logger.info(`setting socket.userId = ${userId} for socket[id:${socket.id}]`)
             socket.userId = userId
