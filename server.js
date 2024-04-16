@@ -1,3 +1,4 @@
+import http from 'http'
 import express from 'express'
 import cookieParser from 'cookie-parser'
 import cors from 'cors'
@@ -11,15 +12,18 @@ import { logger } from './services/logger.service.js'
 logger.info('server.js loaded...')
 
 const app = express()
+const server = http.createServer(app)
+
 
 // Express App Config
 app.use(cookieParser())
 app.use(express.json())
 app.use(express.static('public'))
 
+
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.resolve(__dirname, 'public')))
-    console.log('__dirname: ', __dirname)
+    // console.log('__dirname: ', __dirname)
 } else {
     const corsOptions = {
 
@@ -40,12 +44,17 @@ import { authRoutes } from './api/auth/auth.routes.js'
 import { userRoutes } from './api/user/user.routes.js'
 import { boardRoutes } from './api/board/board.routes.js'
 
-import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware.js'
-app.all('*', setupAsyncLocalStorage)
 
+import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware.js'
+import { setupSocketAPI } from './services/socket-service.js'
+
+app.all('*', setupAsyncLocalStorage)
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/board', boardRoutes)
+
+setupSocketAPI(server)
+
 
 app.get('/**', (req, res) => {
     res.sendFile(path.resolve('public/index.html'))
@@ -53,6 +62,6 @@ app.get('/**', (req, res) => {
 
 const port = process.env.PORT || 3030
 
-app.listen(port, () => {
+server.listen(port, () => {
     logger.info('Server is running on port: ' + port)
 })
