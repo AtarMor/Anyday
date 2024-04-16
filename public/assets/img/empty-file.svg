@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="324px" height="448px" viewBox="0 0 324 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>empty_file</title>
+    <desc>Created with Sketch.</desc>
+    <g id="empty_file" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-80, 0)">
+        <path d="M389,432 C389.552285,432 390,431.552285 390,431 L390,124.894932 C390,124.654244 389.913191,124.421631 389.755506,124.23979 L296.193783,16.3448584 C296.003845,16.1258227 295.728196,16 295.438277,16 L93,16 C92.4477153,16 92,16.4477153 92,17 L92,431 C92,431.552285 92.4477153,432 93,432 L389,432 Z M389,448 L93,448 C83.6111593,448 76,440.388841 76,431 L76,17 C76,7.61115925 83.6111593,0 93,0 L295.438277,1.77635684e-14 C300.366902,1.77635684e-14 305.052933,2.1389862 308.281881,5.86259319 L401.843604,113.757525 C404.524241,116.848823 406,120.80324 406,124.894932 L406,431 C406,440.388841 398.388841,448 389,448 Z" id="Shape" fill="#c4c4c4" fill-rule="nonzero"></path>
+    </g>
+</svg>
