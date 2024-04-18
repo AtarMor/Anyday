@@ -103,32 +103,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "zEYh9U",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076788539"
-                }
-              },
-              {
-                "id": "VempIU",
-                "byPerson": {
-                  "_id": "u101",
-                  "fullName": "Atar Mor",
-                  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
-                },
-                "action": "Changed status to Done",
-                "createdAt": {
-                  "$numberLong": "1713083929354"
-                }
-              }
-            ]
+            "activities": []
           },
           {
             "id": "t303",
@@ -149,32 +124,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "AuK6vU",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076796315"
-                }
-              },
-              {
-                "id": "FtEOJL",
-                "byPerson": {
-                  "_id": "u101",
-                  "fullName": "Atar Mor",
-                  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
-                },
-                "action": "Changed status to Done",
-                "createdAt": {
-                  "$numberLong": "1713080434958"
-                }
-              }
-            ]
+            "activities": []
           },
           {
             "id": "t308",
@@ -193,20 +143,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "VLFqLI",
-                "byPerson": {
-                  "_id": "u101",
-                  "fullName": "Atar Mor",
-                  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
-                },
-                "action": "Changed status to Done",
-                "createdAt": {
-                  "$numberLong": "1713080440692"
-                }
-              }
-            ]
+            "activities": []
           },
           {
             "id": "t304",
@@ -252,20 +189,7 @@
               }
             ],
             "comments": [],
-            "activities": [
-              {
-                "id": "XoT9Od",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076807405"
-                }
-              }
-            ]
+            "activities": []
           },
           {
             "id": "t301",
@@ -284,32 +208,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "BywOZa",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076593787"
-                }
-              },
-              {
-                "id": "5OnmYq",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076779281"
-                }
-              }
-            ]
+            "activities": []
           },
           {
             "id": "t305",
@@ -325,20 +224,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "yHeMRt",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076802448"
-                }
-              }
-            ],
+            "activities": [],
             "files": [
               {
                 "type": "png",
@@ -361,20 +247,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "asjsth",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076819338"
-                }
-              }
-            ]
+            "activities": []
           }
         ],
         "style": {
@@ -404,32 +277,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "We1lkS",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076518022"
-                }
-              },
-              {
-                "id": "aQB2a4",
-                "byPerson": {
-                  "_id": "u101",
-                  "fullName": "Atar Mor",
-                  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713079702351"
-                }
-              }
-            ],
+            "activities": [],
             "files": [
               {
                 "type": "jpg",
@@ -463,20 +311,7 @@
               }
             ],
             "comments": [],
-            "activities": [
-              {
-                "id": "nKfws0",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076565587"
-                }
-              }
-            ]
+            "activities": []
           },
           {
             "id": "t206",
@@ -508,44 +343,7 @@
                 "id": "f9D0Z6"
               }
             ],
-            "activities": [
-              {
-                "id": "IAw0HT",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076689000"
-                }
-              },
-              {
-                "id": "GaTozy",
-                "byPerson": {
-                  "_id": "u101",
-                  "fullName": "Atar Mor",
-                  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
-                },
-                "action": "Updated a file",
-                "createdAt": {
-                  "$numberLong": "1713079145966"
-                }
-              },
-              {
-                "id": "Md9qqd",
-                "byPerson": {
-                  "_id": "u101",
-                  "fullName": "Atar Mor",
-                  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
-                },
-                "action": "Updated a file",
-                "createdAt": {
-                  "$numberLong": "1713079788404"
-                }
-              }
-            ],
+            "activities": [],
             "files": [
               {
                 "type": "png",
@@ -576,20 +374,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "HBTuMD",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076582211"
-                }
-              }
-            ]
+            "activities": []
           },
           {
             "id": "t202",
@@ -615,32 +400,7 @@
               }
             ],
             "comments": [],
-            "activities": [
-              {
-                "id": "MOUinm",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076528738"
-                }
-              },
-              {
-                "id": "uT72IA",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076647294"
-                }
-              }
-            ]
+            "activities": []
           },
           {
             "id": "t205",
@@ -659,32 +419,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "J3nq7p",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076575595"
-                }
-              },
-              {
-                "id": "ItFNzb",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076653093"
-                }
-              }
-            ]
+            "activities": []
           },
           {
             "id": "t203",
@@ -727,20 +462,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "9sMiWM",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076829155"
-                }
-              }
-            ],
+            "activities": [],
             "files": [
               {
                 "type": "pdf",
@@ -786,20 +508,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "mKv4aT",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076840555"
-                }
-              }
-            ]
+            "activities": []
           },
           {
             "id": "t403",
@@ -815,20 +524,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "L6jsZq",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076834081"
-                }
-              }
-            ]
+            "activities": []
           }
         ],
         "style": {
@@ -844,68 +540,7 @@
             "title": "New task",
             "personsId": [],
             "comments": [],
-            "activities": [
-              {
-                "id": "hQ9urI",
-                "byPerson": {
-                  "_id": "u101",
-                  "fullName": "Atar Mor",
-                  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
-                },
-                "action": "Changed person",
-                "createdAt": {
-                  "$numberLong": "1713078772362"
-                }
-              },
-              {
-                "id": "5pN6tD",
-                "byPerson": {
-                  "_id": "u101",
-                  "fullName": "Atar Mor",
-                  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
-                },
-                "action": "Changed status to Working on it",
-                "createdAt": {
-                  "$numberLong": "1713078777168"
-                }
-              },
-              {
-                "id": "yoXbXi",
-                "byPerson": {
-                  "_id": "u101",
-                  "fullName": "Atar Mor",
-                  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
-                },
-                "action": "Changed priority to Medium",
-                "createdAt": {
-                  "$numberLong": "1713078780087"
-                }
-              },
-              {
-                "id": "ziS1Qm",
-                "byPerson": {
-                  "_id": "u101",
-                  "fullName": "Atar Mor",
-                  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713078786577"
-                }
-              },
-              {
-                "id": "6SYjQj",
-                "byPerson": {
-                  "_id": "u101",
-                  "fullName": "Atar Mor",
-                  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
-                },
-                "action": "Updated a file",
-                "createdAt": {
-                  "$numberLong": "1713078800990"
-                }
-              }
-            ],
+            "activities": [],
             "id": "4szcxF",
             "personsIds": [
               "u102"
@@ -957,37 +592,7 @@
                 }
               }
             ],
-            "activities": [
-              {
-                "id": "xyvQDC",
-                "action": "Add person",
-                "personAdded": {
-                  "id": "u103",
-                  "fullName": "Ron Felsenfeld",
-                  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
-                },
-                "createdAt": {
-                  "$numberLong": "1712995031424"
-                },
-                "byPerson": {
-                  "id": "u101",
-                  "fullName": "Atar Mor",
-                  "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
-                }
-              },
-              {
-                "id": "DWstab",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076460815"
-                }
-              }
-            ]
+            "activities": []
           },
           {
             "id": "t103",
@@ -1008,20 +613,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "GGqJ3d",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076475182"
-                }
-              }
-            ],
+            "activities": [],
             "files": [
               {
                 "type": "pdf",
@@ -1048,32 +640,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "87QOrJ",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076493624"
-                }
-              },
-              {
-                "id": "6uxxrp",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076606769"
-                }
-              }
-            ]
+            "activities": []
           },
           {
             "id": "t106",
@@ -1106,56 +673,7 @@
                 "id": "vORujP"
               }
             ],
-            "activities": [
-              {
-                "id": "yY0jLK",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076508248"
-                }
-              },
-              {
-                "id": "EZZZj4",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076545413"
-                }
-              },
-              {
-                "id": "MfC2VA",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076621119"
-                }
-              },
-              {
-                "id": "shd9Qq",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076640205"
-                }
-              }
-            ]
+            "activities": []
           },
           {
             "id": "p102",
@@ -1174,32 +692,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "zqUBCC",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076467123"
-                }
-              },
-              {
-                "id": "QEo7dI",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076629136"
-                }
-              }
-            ]
+            "activities": []
           },
           {
             "id": "t105",
@@ -1227,20 +720,7 @@
               }
             ],
             "comments": [],
-            "activities": [
-              {
-                "id": "AQJvbL",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076499583"
-                }
-              }
-            ]
+            "activities": []
           }
         ],
         "style": {
@@ -1288,20 +768,7 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "qvEmsx",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076864338"
-                }
-              }
-            ]
+            "activities": []
           },
           {
             "id": "t501",
@@ -1320,267 +787,11 @@
               }
             },
             "comments": [],
-            "activities": [
-              {
-                "id": "j1kfxV",
-                "byPerson": {
-                  "fullName": "Guest",
-                  "imgUrl": "/assets/img/user-avatar.svg",
-                  "id": "guest101"
-                },
-                "action": "Changed Date",
-                "createdAt": {
-                  "$numberLong": "1713076849305"
-                }
-              }
-            ]
+            "activities": []
           }
         ],
         "style": {
           "color": "#fdab3d"
-        }
-      }
-    ],
-    "activities": [
-      {
-        "id": "a101",
-        "txt": "Changed Color",
-        "createdAt": {
-          "$numberLong": "1712163768641"
-        },
-        "byPerson": {
-          "_id": "u101",
-          "fullName": "Atar Mor"
-        },
-        "group": {
-          "id": "g3",
-          "title": "Design"
-        },
-        "task": {
-          "id": "t101",
-          "title": "Design intuitive user interface for task management"
-        }
-      }
-    ],
-    "cmpsOrder": [
-      "PersonPicker",
-      "StatusPicker",
-      "PriorityPicker",
-      "TimelinePicker",
-      "FilesPicker"
-    ]
-  },
-  {
-    "_id": {
-      "$oid": "661c11c84963f6b09872a83b"
-    },
-    "title": "Board 3",
-    "isStarred": true,
-    "archivedAt": null,
-    "statuses": [
-      {
-        "id": "s101",
-        "title": "Done",
-        "color": "#00c875"
-      },
-      {
-        "id": "s102",
-        "title": "Working on it",
-        "color": "#fdab3d"
-      },
-      {
-        "id": "s103",
-        "title": "Stuck",
-        "color": "#df2f4a"
-      },
-      {
-        "id": "s104",
-        "title": "",
-        "color": "#c4c4c4"
-      }
-    ],
-    "persons": [
-      {
-        "id": "u101",
-        "fullName": "Atar Mor",
-        "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
-      },
-      {
-        "id": "u102",
-        "fullName": "Ido Yotvat",
-        "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
-      },
-      {
-        "id": "u103",
-        "fullName": "Ron Felsenfeld",
-        "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
-      }
-    ],
-    "priorities": [
-      {
-        "id": "pri101",
-        "title": "Critical ⚠",
-        "color": "#333333"
-      },
-      {
-        "id": "pri102",
-        "title": "High",
-        "color": "#401694"
-      },
-      {
-        "id": "pri103",
-        "title": "Medium",
-        "color": "#5559df"
-      },
-      {
-        "id": "pri104",
-        "title": "Low",
-        "color": "#579bfc"
-      },
-      {
-        "id": "pri105",
-        "title": "",
-        "color": "#c4c4c4"
-      }
-    ],
-    "groups": [
-      {
-        "id": "1NGOYU",
-        "title": "Group1",
-        "archivedAt": null,
-        "tasks": [
-          {
-            "id": "emd84U",
-            "title": "task 1",
-            "personsIds": [
-              "u101"
-            ],
-            "status": "s102",
-            "priority": "pri105",
-            "timeline": {
-              "startDate": {
-                "$numberLong": "1712077970111"
-              },
-              "dueDate": {
-                "$numberLong": "1712250770111"
-              }
-            },
-            "comments": [],
-            "activities": []
-          },
-          {
-            "id": "6TMiVO",
-            "title": "task 2",
-            "personsIds": [
-              "u103"
-            ],
-            "status": "s101",
-            "priority": "pri105",
-            "timeline": {
-              "startDate": {
-                "$numberLong": "1712164370111"
-              },
-              "dueDate": {
-                "$numberLong": "1712941970111"
-              }
-            },
-            "comments": [],
-            "activities": []
-          },
-          {
-            "id": "ntHUnG",
-            "title": "task 3",
-            "personsIds": [
-              "u101",
-              "u102",
-              "u103"
-            ],
-            "status": "s103",
-            "priority": "pri105",
-            "timeline": {
-              "startDate": {
-                "$numberLong": "1711991570111"
-              },
-              "dueDate": {
-                "$numberLong": "1712337170111"
-              }
-            },
-            "comments": [],
-            "activities": [],
-            "files": [
-              {
-                "type": "jpg",
-                "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713019203/uc8cbiodqflqhewr2f8d.jpg",
-                "desc": "How to modal"
-              }
-            ]
-          }
-        ],
-        "style": {
-          "color": "#579bfc"
-        }
-      },
-      {
-        "id": "zuU6bw",
-        "title": "group 2",
-        "archivedAt": null,
-        "tasks": [
-          {
-            "id": "gmoUc4",
-            "title": "task 1",
-            "status": "s104",
-            "priority": "pri105",
-            "personsIds": [
-              "u101",
-              "u103"
-            ],
-            "timeline": {
-              "startDate": {
-                "$numberLong": "1711991570111"
-              },
-              "dueDate": {
-                "$numberLong": "1712337170111"
-              }
-            },
-            "comments": [],
-            "activities": [],
-            "files": [
-              {
-                "type": "jpg",
-                "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713006218/nbgwkn5rga3yqmqc1tk9.jpg",
-                "desc": "how to"
-              }
-            ]
-          },
-          {
-            "id": "jne5Vf",
-            "title": "task 2",
-            "personsIds": [
-              "u102"
-            ],
-            "status": "s103",
-            "priority": "pri105",
-            "timeline": {
-              "startDate": {
-                "$numberLong": "1711991570111"
-              },
-              "dueDate": {
-                "$numberLong": "1712164370111"
-              }
-            },
-            "comments": [],
-            "activities": [],
-            "files": [
-              {
-                "type": "pdf",
-                "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713011807/or7snd8m1oxfh93v9wro.pdf",
-                "desc": "Forme 1.png"
-              }
-            ]
-          }
-        ],
-        "style": {
-          "color": "#037f4c"
         }
       }
     ],
@@ -1589,220 +800,8 @@
       "PersonPicker",
       "StatusPicker",
       "PriorityPicker",
-      "TimelinePicker"
-    ],
-    "boardToSave": {
-      "title": "Board 3",
-      "isStarred": true,
-      "archivedAt": null,
-      "statuses": [
-        {
-          "id": "s101",
-          "title": "Done",
-          "color": "#00c875"
-        },
-        {
-          "id": "s102",
-          "title": "Working on it",
-          "color": "#fdab3d"
-        },
-        {
-          "id": "s103",
-          "title": "Stuck",
-          "color": "#df2f4a"
-        },
-        {
-          "id": "s104",
-          "title": "",
-          "color": "#c4c4c4"
-        }
-      ],
-      "persons": [
-        {
-          "id": "u101",
-          "fullName": "Atar Mor",
-          "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/atar_ofxln7.jpg"
-        },
-        {
-          "id": "u102",
-          "fullName": "Ido Yotvat",
-          "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168994/ido_ds25mn.jpg"
-        },
-        {
-          "id": "u103",
-          "fullName": "Ron Felsenfeld",
-          "imgUrl": "https://res.cloudinary.com/df6vvhhoj/image/upload/v1712168995/ron_hzfvru.jpg"
-        }
-      ],
-      "priorities": [
-        {
-          "id": "pri101",
-          "title": "Critical ⚠",
-          "color": "#333333"
-        },
-        {
-          "id": "pri102",
-          "title": "High",
-          "color": "#401694"
-        },
-        {
-          "id": "pri103",
-          "title": "Medium",
-          "color": "#5559df"
-        },
-        {
-          "id": "pri104",
-          "title": "Low",
-          "color": "#579bfc"
-        },
-        {
-          "id": "pri105",
-          "title": "",
-          "color": "#c4c4c4"
-        }
-      ],
-      "groups": [
-        {
-          "id": "1NGOYU",
-          "title": "Group1",
-          "archivedAt": null,
-          "tasks": [
-            {
-              "id": "emd84U",
-              "title": "task 1",
-              "personsIds": [
-                "u101"
-              ],
-              "status": "s102",
-              "timeline": {
-                "startDate": {
-                  "$numberLong": "1712077970111"
-                },
-                "dueDate": {
-                  "$numberLong": "1712250770111"
-                }
-              },
-              "comments": [],
-              "activities": []
-            },
-            {
-              "id": "6TMiVO",
-              "title": "task 2",
-              "personsIds": [
-                "u103"
-              ],
-              "status": "s101",
-              "timeline": {
-                "startDate": {
-                  "$numberLong": "1712164370111"
-                },
-                "dueDate": {
-                  "$numberLong": "1712941970111"
-                }
-              },
-              "comments": [],
-              "activities": []
-            },
-            {
-              "id": "ntHUnG",
-              "title": "task 3",
-              "personsIds": [
-                "u101",
-                "u102",
-                "u103"
-              ],
-              "status": "s103",
-              "timeline": {
-                "startDate": {
-                  "$numberLong": "1711991570111"
-                },
-                "dueDate": {
-                  "$numberLong": "1712337170111"
-                }
-              },
-              "comments": [],
-              "activities": [],
-              "files": [
-                {
-                  "type": "jpg",
-                  "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713019203/uc8cbiodqflqhewr2f8d.jpg",
-                  "desc": "How to modal"
-                }
-              ]
-            }
-          ],
-          "style": {
-            "color": "#579bfc"
-          }
-        },
-        {
-          "id": "zuU6bw",
-          "title": "group 2",
-          "archivedAt": null,
-          "tasks": [
-            {
-              "id": "gmoUc4",
-              "title": "task 1",
-              "personsIds": [
-                "u101",
-                "u103"
-              ],
-              "timeline": {
-                "startDate": {
-                  "$numberLong": "1711991570111"
-                },
-                "dueDate": {
-                  "$numberLong": "1712337170111"
-                }
-              },
-              "comments": [],
-              "activities": [],
-              "files": [
-                {
-                  "type": "jpg",
-                  "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713006218/nbgwkn5rga3yqmqc1tk9.jpg",
-                  "desc": "how to"
-                }
-              ]
-            },
-            {
-              "id": "jne5Vf",
-              "title": "task 2",
-              "personsIds": [
-                "u102"
-              ],
-              "status": "s103",
-              "timeline": {
-                "startDate": {
-                  "$numberLong": "1711991570111"
-                },
-                "dueDate": {
-                  "$numberLong": "1712164370111"
-                }
-              },
-              "comments": [],
-              "activities": [],
-              "files": [
-                {
-                  "type": "pdf",
-                  "url": "https://res.cloudinary.com/dkmvaqxkl/image/upload/v1713011807/or7snd8m1oxfh93v9wro.pdf",
-                  "desc": "Forme 1.png"
-                }
-              ]
-            }
-          ],
-          "style": {
-            "color": "#037f4c"
-          }
-        }
-      ],
-      "activities": [],
-      "cmpsOrder": [
-        "PersonPicker",
-        "StatusPicker",
-        "PriorityPicker",
-        "TimelinePicker"
-      ]
-    }
+      "TimelinePicker",
+      "FilesPicker"
+    ]
   }
 ]
